@@ -1,0 +1,32 @@
+
+# img元素添加图片，可用src指向一个图片地址。每个img元素必须有一个alt属性，alt属性不能包含特殊字符，纯装饰图片的alt属性留空就行。
+* anchor元素<a> </a>使用href属性链接外部网页
+* anchor元素可用来在网页内部进行链接跳转。
+* 在href属性内容前添加#+id值作为指向标记，在随后的页面中同样必须添加一个id值作为链接点。
+...
+<a href="#contacts-header">Contacts</a>
+...
+<h2>Contacts</h2>
+...
+# href后的target="_blank"属性用来打开一个新的页面
+href后的链接替换为“#”，成为一个死链接。看起来一样，但是不能跳转。
+p元素标签文本内容中插入anchor元素a标签（有href，target属性）链接
+bulleted unorderd list 无秩序子弹列表
+ul元素标签后接任意数量li元素 开放闭合
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+bulleted orderd list
+ol元素标签后接任意数量li元素标签
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+create text field创建文本字段
+input元素 type属性
+接受使用者的输入
+<input type="text">
+在文本字段中添加placeholder占位符
+<input type="text" placeholder="this is placeholder text">
+表格元素标签
